@@ -34,7 +34,7 @@
 \usetikzlibrary{arrows,decorations.markings,positioning}
 \usepackage{epstopdf}
 
-\title[1b Motivating Shannons Entropy: lecture 1]{1b: Information Theory lecture 1}
+\title[Motivating Shannon's Entropy: lecture 1]{Information Theory lecture 1}
 \author{COMSM0075 Information Processing and Brain}
 \institute{\texttt{comsm0075.github.io}}
 \date{September 2020}
@@ -265,6 +265,30 @@ validity.
   For a finite discrete distribution with random variable \sm X\fm,
   possible outcomes \sm\{x_1,x_2,\ldots x_n\}\in\mathcal{X}\fm{} and a
   probability mass function \sm p_X\fm{} giving probabilities \sm p_X(x_i)\fm, the
+  entropy is
+\crish
+  $$
+H(X)=-\sum_{x_i\in \mathcal{X}}{p_X(x_i)\log_2p_X(x_i)}
+  $$
+\cbla
+\end{frame}
+
+\begin{frame}{Shannon's entropy}
+  For a finite discrete distribution with random variable \sm X\fm,
+  possible outcomes \cblu $\{x_1,x_2,\ldots x_n\}\in\mathcal{X}$\cbla{} and a
+  probability mass function \sm p_X\fm{} giving probabilities \sm p_X(x_i)\fm, the
+  entropy is
+\crish
+  $$
+H(X)=-\sum_{x_i\in \mathcal{X}}{p_X(x_i)\log_2p_X(x_i)}
+  $$
+\cbla
+\end{frame}
+
+\begin{frame}{Shannon's entropy}
+  For a finite discrete distribution with random variable \sm X\fm,
+  possible outcomes \sm\{x_1,x_2,\ldots x_n\}\in\mathcal{X}\fm{} and a
+  probability mass function \sm p_X\fm{} giving probabilities \cblu$ p_X(x_i)$\cbla, the
   entropy is
 \crish
   $$
